@@ -1,0 +1,32 @@
+name: math
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart:
+  equations:
+  url_launcher:
+#  flutter_bubbles:
+  cupertino_icons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/telegram.png
+    - assets/github.png
+    - assets/math.png
